@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px  solid transparent;
+    transition: 0.6 ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 0px;
+}
+
+.main {
+    max-width:1200px;
+    margin: auto;
+}
+
+ul li.active a{
+        background-color: white;
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.title h1{
+    color: goldenrod;
+    font-size: 60px;
+
+}
+
+.title p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.title p.button a{
+    text-align: center;
+    text-decoration: none;
+    margin-top:100px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px 30px;
+    transform: .5 ease;
+}
+
+.title p.button a:hover{
+    background-color: orange;
+    color: black;
+    border: none;
+
+}
+
+
+
+.flex h1{
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 30px;
+}
+
+.flex p{
+    text-align: justify;
+    text-transform:capitalize;
+    font-size: 20px;
+    margin-right: 40px 0 0 40px;
+    font-family: times new roman;
+    color: black;
+}
+
+
+
+.thumbnail h3 a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.thumbnail h3 a:hover{
+    background-color:goldenrod;
+    color: white;
+    border: 2px solid goldenrod;
+}
+
+.thumbnail:hover{
+    border: 1px solid goldenro
+}
